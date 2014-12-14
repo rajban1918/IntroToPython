@@ -1,10 +1,15 @@
 slides_sources/build
-#ignore python compile files
 
-#ignore compile files, sublime workspace and project files
+.DS_Store
+#ignore compiled files, sublime workspace and project files
 *.pyc
+*junk*
+
+#ignore sublime workspace files
 *.sublime*
 
-#ignore changes in Examples directory
+# ignore .gitignore, so we can each have our own.
+.gitignore
 
-/Examples/
+# editor back-up files
+*.*~
